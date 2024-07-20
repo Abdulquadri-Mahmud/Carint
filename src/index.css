@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blendmode{
+    background-blend-mode: multiply;
+    background-color: rgb(165, 163, 163);
+}
+.blendmode2{
+    background-blend-mode: multiply;
+    background-color: rgb(116, 115, 115);
+}
+
+.slick-dots{
+    top: 500px;
+}
+.slick-dots li{   
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+@media screen and (max-width: 600px) {
+    .slick-dots{
+        top: 600px;
+    }
+}
+
+.about{
+    z-index: -1;
+}
